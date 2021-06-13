@@ -10,6 +10,8 @@ Software: Postgres SQL 13, pgAdmin 4, Visual Studio Code 1.57.0
 ## Results
 
 ### Retiring Employees by Title 
+
+![image](https://user-images.githubusercontent.com/67031885/121814784-de086f00-cc40-11eb-868f-5cbb6c5ec4dc.png)
  
 As we performed our analysis on the PH employee database, we found that the following:
 -PH is correct in the assumption that a “Silver Wave” of retirement is likely scenario in the near future. The above snapshot is an overview of the titles held by retirement age employees (born between 01-01-1952 and 12-31-1955). 
@@ -17,6 +19,7 @@ As we performed our analysis on the PH employee database, we found that the foll
 
 ### Employees eligible for mentorship 
 
+![image](https://user-images.githubusercontent.com/67031885/121814795-e95b9a80-cc40-11eb-9398-c88ed3eb5928.png)
  
 As PH prepares for the “Silver Tsunami” event one of the main initiatives is identifying technical staff eligible for mentorship advancement, as such the analysis revealed the following: 
 -As stated, PH will be experiencing a large exodus of senior technical staff, fortunately as represented above there is also a large amount technical staff that is eligible to participate in mentorship programs. 
@@ -24,6 +27,7 @@ As PH prepares for the “Silver Tsunami” event one of the main initiatives is
 
 ### Summary 
 
+![image](https://user-images.githubusercontent.com/67031885/121814807-f37d9900-cc40-11eb-8686-44236dc27b50.png)
  
 ``` SELECT COUNT (emp_no) as Total_Retiring_Employees from titles_no_dupes;```
 
